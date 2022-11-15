@@ -1,0 +1,249 @@
+
+body{
+    color:#40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    
+     
+}
+header{
+    width: 100%;
+    height: 90%;
+    
+    
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+header .mainupper{
+    width:90%;
+    height: 45%;
+    padding: 15% 8% 0 8%;
+}
+.through_img{
+    
+        width:15%;
+        padding-top: 5%;
+        position:absolute;
+            left:2rem;
+            top:1.5rem;
+    }
+
+.home {
+    background: #cbd1d6;
+    background-image: -webkit-linear-gradient(top, #cbd1d6, #85898c);
+    background-image: -moz-linear-gradient(top, #cbd1d6, #85898c);
+    background-image: -ms-linear-gradient(top, #cbd1d6, #85898c);
+    background-image: -o-linear-gradient(top, #cbd1d6, #85898c);
+    background-image: linear-gradient(to bottom, #cbd1d6, #85898c);
+    -webkit-border-radius: 21;
+    -moz-border-radius: 21;
+    border-radius: 2.1rem;
+    font-family: Georgia;
+    color: #080808;
+    font-size: 1.4rem;
+    padding: 1rem 2rem 1rem 2rem;
+    text-decoration: none;
+    position:absolute;
+        right:20rem;
+        top:1.5rem;
+  }
+  
+  .home:hover {
+    background: #849fb0;
+    background-image: -webkit-linear-gradient(top, #849fb0, #4c5d69);
+    background-image: -moz-linear-gradient(top, #849fb0, #4c5d69);
+    background-image: -ms-linear-gradient(top, #849fb0, #4c5d69);
+    background-image: -o-linear-gradient(top, #849fb0, #4c5d69);
+    background-image: linear-gradient(to bottom, #849fb0, #4c5d69);
+    text-decoration: none;
+  }
+
+  
+  .resume {
+    background: #cbd1d6;
+    background-image: -webkit-linear-gradient(top, #cbd1d6, #85898c);
+    background-image: -moz-linear-gradient(top, #cbd1d6, #85898c);
+    background-image: -ms-linear-gradient(top, #cbd1d6, #85898c);
+    background-image: -o-linear-gradient(top, #cbd1d6, #85898c);
+    background-image: linear-gradient(to bottom, #cbd1d6, #85898c);
+    -webkit-border-radius: 21;
+    -moz-border-radius: 21;
+    border-radius: 2.1rem;
+    font-family: Georgia;
+    color: #080808;
+    font-size: 1.4rem;
+    padding: 1rem 2rem 1rem 2rem;
+    text-decoration: none;
+    position:absolute;
+        right:5rem;
+        top:1.5rem;
+  }
+  
+  .resume:hover {
+    background: #849fb0;
+    background-image: -webkit-linear-gradient(top, #849fb0, #4c5d69);
+    background-image: -moz-linear-gradient(top, #849fb0, #4c5d69);
+    background-image: -ms-linear-gradient(top, #849fb0, #4c5d69);
+    background-image: -o-linear-gradient(top, #849fb0, #4c5d69);
+    background-image: linear-gradient(to bottom, #849fb0, #4c5d69);
+    text-decoration: none;
+  }
+
+header .cover {
+    position: relative;
+    width: 90%;
+    height: 60%;
+    display: flex;
+    
+    
+    
+    
+}
+
+
+p{
+    text-align: center;
+    margin: auto;
+}
+
+
+.upper_container{
+    background-color:rgb(21, 21, 21);
+    height:50%;
+    width:100%;
+    
+}
+.middle_container{
+    background-color:#606162;
+    
+    height:10%;
+    width: 100%;
+    
+    padding: 5rem 0 ; 
+}
+
+
+
+.cover_img{
+    height:50%;
+    width:30%;
+    margin-left: 5%;
+    position:relative;
+    border: 0.5rem solid black;
+
+    display: flex;
+    
+    
+}
+second_cover{
+    
+    position: relative;
+    width: 90%;
+    height: 50%;
+    display: flex;
+}
+
+html{
+    font-size: 62.5%;
+    /*10px  1rem   */ 
+}
+p{
+  font-size: 1.2rem ;
+}
+
+
+a{
+    color:#11999e;
+    font-family: 'Montserrat',sans-serif;
+    margin:2rem 2rem;
+    text-decoration-line:none;
+}
+
+a:hover{
+    color:#EAF6F6;
+
+}
+h2{
+    color: #cbd1d6;
+    font-size: 1.8rem;
+   
+    
+}
+h4{
+    color: #4c5d69;
+}
+.cognizant{
+    
+    padding-left: 5%;
+    text-align:left;
+    line-height: 2;
+    height: 30%;
+    width: 100%;
+    
+    
+    
+}
+
+.flutura{
+    
+    padding-left: 5%;
+    text-align: left;
+    width: 100%;
+    height: 30%;
+    padding-top: 5%;
+    line-height: 2;
+    
+}
+p{
+    font-size: 1.5rem;
+    color: antiquewhite;
+}
+.music_website{
+    
+    text-align: left;
+    width: 100%;
+    height: 30%;
+    padding-left: 5%;
+   padding-top: 5%;
+    margin-bottom: 15%;
+    
+   
+}
+.footer_link{
+    color:#11999e;
+    font-family: 'Montserrat',sans-serif;
+    margin:2rem 2rem;
+    text-decoration-line:none;
+    font-size: 1.2rem;
+    line-height: 3;
+}
+h1{
+    font-size: 2rem;
+    color: #080808;
+    
+    
+}
+
+
+@media (max-width:998px) {
+    html{
+        font-size:55%;
+        
+    }
+    }
+    @media (max-width:800px) {
+        html{
+            font-size:35%;
+        }
+        }
+        @media (max-width:500px) {
+            html{
+                font-size:25%;
+            }
+            }
+        @media (max-width:400px) {
+                html{
+                    font-size:15%;
+                }
+                }
